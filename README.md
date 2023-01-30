@@ -10,17 +10,10 @@
 #### 效果预览
 
 
-![输入图片说明](images/01.png)
-![输入图片说明](images/02.jpeg)
-![输入图片说明](images/03.jpeg)
-![输入图片说明](images/04.jpeg)
-![输入图片说明](images/05.jpeg)
-![输入图片说明](images/06.jpeg)
-
 #### 体验地址
+https://raw.githubusercontent.com/fqrr/-/main/gh_697101a8e05a_344.jpg
 
-
-![输入图片说明](gh_a09bef318c01_258.jpg)
+![输入图片说明]('gh_a09bef318c01_258.jpg')
 
 
 
