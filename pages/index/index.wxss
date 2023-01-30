@@ -1,0 +1,88 @@
+.head.data-v-1489abbb {
+  width: 100%;
+  height: 400px
+}
+
+.bf_input_down.data-v-1489abbb {
+  width: 100%;
+  height: 200rpx;
+  background-color: #fff;
+ 
+}
+
+.inputmain.data-v-1489abbb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+  border: none
+}
+
+.inputmain .weui-cells.data-v-1489abbb {
+  position: relative;
+  background-color: #f3f3f3;
+  line-height: 1.41176471;
+  font-size: 14px
+}
+
+.inputmain .weui-cells .weui-cell .weui-cell__bd.data-v-1489abbb {
+  flex: 1
+}
+
+.inputmain .weui-cells .weui-cell .weui-cell__bd .weui-input.data-v-1489abbb {
+  height: 43px;
+  min-height: 43px;
+  line-height: 43px;
+  padding-left: 13px;
+  font-family: iconfont !important
+}
+
+.inputmain .weui-cells .weui-cell_input.data-v-1489abbb {
+  padding-top: 0;
+  padding-bottom: 0
+}
+
+.jiexibut.data-v-1489abbb {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 145rpx;
+  height: 86rpx;
+  background: linear-gradient(#ffd800, #fb0);
+  color: #563f00;
+  font-size: 24rpx;
+  border-top-right-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+  border: none
+}
+
+.banner.data-v-1489abbb {
+  position: relative;
+  float: left;
+  padding: 5px 0;
+  width: 50%;
+  height: 170rpx;
+  box-sizing: border-box;
+  border-right: 0rpx solid #d9d9d9;
+  border-bottom: 0rpx solid #d9d9d9
+}
+
+.jiaocheng.data-v-1489abbb {
+  margin-left: 45rpx;
+  margin-bottom: 10rpx;
+  margin-right: 45px;
+  display: block;
+  width: 100%;
+  height: 800rpx;
+  background-size: 100% 100%;
+  margin: 10px auto;
+  line-height: 36px;
+  text-align: center;
+  font-size: 18px
+}
+
+.mp4.data-v-1489abbb {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%
+}

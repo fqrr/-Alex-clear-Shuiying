@@ -1,0 +1,20 @@
+<view class="container">
+  <!-- <view class="head">
+  <image class="success-image" src="/static/image/success.png"></image>
+  <view class="title">MD5视频重置完成！</view>
+   
+ </view> -->
+  <view class="result-video">
+    <video id="myVideo" src="{{video_url}}" enable-danmu danmu-btn show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls picture-in-picture-mode="{{['push', 'pop']}}"></video>
+  </view>
+  <view class="button-sp-area">
+    <button bindtap="onSaveVideo" class="save-video save-btn" type="primary" shape="circle">
+      <image class="down-images" src="/static/image/xiazai.png"></image> 保存视频
+    </button>
+  </view>
+
+  <!--pages/box/box.wxml-->
+  <button class="bf_input_down pad data-v-1489abbb" open-type="share" form-type="submit">
+    <image class="bf_input_down data-v-1489abbb" src="https://bytedance.rootmao.com/bbqsy/static/image/fx.png" mode="aspectFit"></image>
+  </button>
+</view>

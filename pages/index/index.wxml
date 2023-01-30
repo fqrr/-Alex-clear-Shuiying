@@ -1,0 +1,53 @@
+
+<view class="data-v-1489abbb">
+   
+  <view class="page_box mb12 data-v-1489abbb">
+    <button class="bf_input_down pad data-v-1489abbb" open-type="share" form-type="submit">
+      <image class="bf_input_down data-v-1489abbb" src="https://bytedance.rootmao.com/bbqsy/static/image/fx.png" mode="aspectFit"></image>
+    </button>
+    <block wx:if="{{bannerid}}">
+      <view class="data-v-1489abbb">
+        <ad unit-id="{{bannerid}}" class="data-v-1489abbb"></ad>
+      </view>
+    </block>
+    <view class="inputmain data-v-1489abbb">
+      <view class="weui-cells data-v-1489abbb" style="width:520rpx;">
+        <view class="weui-cell weui-cell_input data-v-1489abbb">
+          <view class="weui-cell__bd data-v-1489abbb" style="height:86rpx;">
+            <input name="value" data-modal='value' bindinput='getValue' value="{{value}}" class="weui-input data-v-1489abbb"   /> 
+          </view>
+        </view>
+      </view>
+      <view   class="jiexibut data-v-1489abbb" bindtap="bindDecode">去水印</view>
+    </view>
+    <block wx:if="{{status}}">
+      <view class="mb12 data-v-1489abbb"><video class="mp4 data-v-1489abbb" src="{{mp4url}}" controls="{{true}}"></video>
+        <view class="x-bc pad data-v-1489abbb">
+          <u-button vue-id="286c6198-2" type="warning" shape="circle" data-event-opts="{{[['^click',[['guankanjili']]]]}}" bind:click="__e" class="data-v-1489abbb" bind:__l="__l" vue-slots="{{['default']}}">
+            <u-icon vue-id="{{('286c6198-3')+','+('286c6198-2')}}" name="download" class="data-v-1489abbb" bind:__l="__l"></u-icon>保存本地
+          </u-button>
+          <u-button vue-id="286c6198-4" type="warning" shape="circle" data-event-opts="{{[['^click',[['copydownurl']]]]}}" bind:click="__e" class="data-v-1489abbb" bind:__l="__l" vue-slots="{{['default']}}">
+            <u-icon vue-id="{{('286c6198-5')+','+('286c6198-4')}}" name="attach" class="data-v-1489abbb" bind:__l="__l"></u-icon>复制链接
+          </u-button>
+        </view>
+      </view>
+    </block>
+    <view class="data-v-1489abbb">
+      <navigator url="/pages/recommend/help"	open-type="navigate">
+        <image class="banner data-v-1489abbb" src="https://bytedance.rootmao.com/bbqsy/static/image/zuoyi.png"  ></image>
+      </navigator>
+      <navigator url="/pages/recommend/share"	open-type="navigate">
+      <image class="banner data-v-1489abbb" src="https://bytedance.rootmao.com/bbqsy/static/image/youyi.png"    ></image>
+      </navigator>
+      
+      <navigator url="/pages/recommend/faq"	open-type="navigate">
+        <image class="banner data-v-1489abbb" src="https://bytedance.rootmao.com/bbqsy/static/image/zuoer.png"    ></image>
+      </navigator>
+      <navigator url="/pages/recommend/md5faq"	open-type="navigate">
+
+      <image class="banner data-v-1489abbb" src="https://bytedance.rootmao.com/bbqsy/static/image/youer.png"     ></image>
+    </navigator>
+    </view>
+    <image class="jiaocheng data-v-1489abbb" src="https://bytedance.rootmao.com/bbqsy/static/image/jiexi4.jpg" mode></image>
+  </view>
+</view>

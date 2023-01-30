@@ -1,0 +1,52 @@
+
+.result-video{
+  margin: 10px auto;
+  text-align: center;
+  
+}
+.result-video video{
+width: 100%;
+}
+.result-title{
+  margin: 20px auto;
+  font-size: 20px;
+}
+
+.button-sp-area{
+  margin: 10px auto;
+  width: 100%;
+  text-align: center;
+}
+.down-images{
+  width: 15px;
+  height: 15px;  
+}
+.success-image{
+  width: 80px;
+  height: 80px;
+}
+.save-btn{
+  margin: 20px auto;
+}
+.video-info{
+  margin:   5px;
+}
+.info{
+  margin-bottom: 3px;
+    color: #555;
+    font-size: 12px;
+}
+.head{
+  margin: 40px auto;
+  text-align: center;
+}
+.title{
+  font-size: 20px;
+  color: #07c160;
+}
+
+.bf_input_down.data-v-1489abbb {
+  width: 100%;
+  height: 200rpx;
+  background-color: #fff; 
+}

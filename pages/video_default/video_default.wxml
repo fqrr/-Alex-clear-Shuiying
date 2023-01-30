@@ -1,0 +1,47 @@
+<view>
+  <view class="video-box">
+    <video 
+     
+      id="myVideo" 
+      src="{{data.url}}" 
+       
+      class="video"
+      enable-danmu 
+      danmu-btn 
+      poster="{{data.cover}}"
+      title="{{data.title}}"
+      controls
+      picture-in-picture-mode="{{['push', 'pop']}}" 
+    ></video>  
+  </view>
+  <view class="info-title"><image class="avg-images" src="{{data.avatar}}"> </image><text class="info-text"> {{data.title}}</text></view>
+   
+  <view class="video-info">
+    <view class="info"><image class="like-images" src="/static/image/shoucanga.png"></image><text> </text> {{data.like}}</view>
+
+    <view class="info"><image class="avg-images" src="{{data.avatar}}"> </image> <text> 作者：</text>
+       {{data.author}}  </view>
+
+     <view class="info"><image class="avg-images" src="{{data.music.avatar}}" 	lazy-load="true"> </image> <text> 音频：</text>
+       {{data.music.author}}  </view>
+    <view class="info"><image class="like-images" src="/static/image/time.png"></image><text> 发布：</text>{{data.time}}</view>
+  </view>
+   <view class="mt24 x-bc pad">
+    <view class="button-sp-area">
+      <button bindtap="onSaveVideo" class="save-video save-btn" size="mini" type="primary" shape="circle"  >
+        <image class="down-images" src="/static/image/xiazai.png"></image> 保存视频
+      </button>
+       
+      <button bindtap="onSaveImages" class="save-images save-btn" size="mini" type="primary" shape="circle"  >
+        <image class="down-images" src="/static/image/xiazai.png"></image> 保存封面
+      </button>
+      
+     </view>
+    
+    <view class="share">
+      <button class="bf_input_down pad data-v-1489abbb" open-type="share" form-type="submit">
+      <image class="bf_input_down data-v-1489abbb" src="https://bytedance.rootmao.com/bbqsy/static/image/fx.png" mode="aspectFit"></image>
+      </button>
+    </view>
+  </view>
+</view>

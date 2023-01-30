@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="title">
+     <view class="title-text">    
+       <!-- <image class="title-image" mode="scaleToFill" src="/static/image/lock.png"></image> -->
+视频MD5重置</view>
+     <view class="sub-title">一键修改，轻松上热门！</view>
+
+  </view>
+  <view class="file-upload" bindtap="onOpenVideo">
+    <!-- <image class="bg-upload" src='/static/image/bg_price.png'></image> -->
+    <image class="add-icon" src="/static/image/create_btn_picture_add_normal_boy1.png"></image>
+    <view>添加本地视频</view>
+  </view>
+  
+<!--pages/box/box.wxml-->
+<button class="bf_input_down pad data-v-1489abbb" open-type="share" form-type="submit">
+      <image class="bf_input_down data-v-1489abbb" src="https://bytedance.rootmao.com/bbqsy/static/image/fx.png" mode="aspectFit"></image>
+    </button>
+</view>

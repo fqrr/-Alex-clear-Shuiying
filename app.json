@@ -1,0 +1,52 @@
+{
+  "lazyCodeLoading": "requiredComponents",
+  "pages": [
+    "pages/index/index",
+    "pages/box/box",
+    "pages/user/user",
+    "pages/video_default/video_default",
+    "pages/tools/md5/md5",
+    "pages/recommend/help",
+    "pages/recommend/share",
+    "pages/recommend/faq",
+    "pages/recommend/md5faq",
+    "pages/tools/md5/md5_details"
+  ],
+  "tabBar": {
+    "custom": false,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/image/index.png",
+        "selectedIconPath": "/static/image/indexs.png",
+        "text": "去水印"
+      },
+      {
+        "pagePath": "pages/box/box",
+        "iconPath": "/static/image/new.png",
+        "selectedIconPath": "/static/image/news.png",
+        "text": "更多"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "/static/image/my.png",
+        "selectedIconPath": "/static/image/mys.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor":"#fff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "百宝去水印",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

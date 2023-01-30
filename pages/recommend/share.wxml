@@ -1,0 +1,13 @@
+<view class="container">
+  <view  >
+    <view class="main">
+      <view class="t">
+        <image src="/static/image/guanyu.png "></image>转发邀请好友免费使用
+      </view>
+      <view class="line"></view>
+       <button class="bf_input_down pad data-v-1489abbb" open-type="share" form-type="submit">
+          <image class="bf_input_down data-v-1489abbb" src="https://bytedance.rootmao.com/bbqsy/static/image/fx.png" mode="aspectFit"></image>
+        </button>
+    </view>
+  </view>
+</view>

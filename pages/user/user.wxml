@@ -1,0 +1,36 @@
+<view>
+  <nar-bar   bgColor="#000000" ></nar-bar>
+  <view class="topView">
+    <view bindtap="getUserProfile" class="userInfo">
+      <view class="userInfo-portrait">
+        <image src="{{userInfo.avatarUrl?userInfo.avatarUrl:'/static/image/avatar.png'}}"></image>
+      </view>
+      <block wx:if="{{userInfo.nickName}}">
+        <view class="userInfo-detail"><text class="userInfo-nickName">{{userInfo.nickName}}</text></view>
+      </block>
+      <block wx:else>
+        <view class="userInfo-detail"><text   class="userInfo-nickName"  >请先登录</text></view>
+      </block>
+    </view>
+  </view>
+  <view class="setting">
+    <view class="setting-vip">
+      <view class="setting-vip-absolute">S V I P</view>
+      <view class="setting-vip-title"><text>{{member_amount?member_amount:0}}</text>
+        <view class="_br"></view><text class="setting-vip-sub">剩余积分</text>
+      </view>
+      <view class="setting-vip-button"  ><text class="setting-vip-button-text ">我的信息</text></view>
+    </view>
+    <view class="list">
+      <block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+        <button open-type="share"  class="list-item"  >
+          <image class="list-item-icon" src="{{item.icon}}"></image><text class="list-item-title">{{item.title}}</text><text class="list-item-more cuIcon">></text>
+          <block wx:if="{{index==2}}"><button class="list-item-button" open-type="share"></button></block>
+          <block wx:else>
+            <block wx:if="{{index==3}}"><button class="list-item-button" open-type="contact"></button></block>
+          </block>
+        </button>
+      </block>
+    </view>
+  </view>
+</view>

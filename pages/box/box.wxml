@@ -1,0 +1,44 @@
+<!--pages/box/box.wxml-->
+<button class="bf_input_down pad data-v-1489abbb" open-type="share" form-type="submit">
+      <image class="bf_input_down data-v-1489abbb" src="https://bytedance.rootmao.com/bbqsy/static/image/fx.png" mode="aspectFit"></image>
+    </button>
+<view class="container">
+  <view class="sub-title">视频解析工具</view>
+  <view class="item">
+    <navigator 	open-type="reLaunch" url="/pages/index/index">
+     
+    <view class="item-left-info">
+      <view class="item-title">抖音去水印</view>
+      <view class="item-describe">永久免费工具</view>
+    </view>
+    <view class="item-right-info"><image class="item-image" mode="scaleToFill" src="/static/image/dy.png"></image></view>
+  </navigator>
+  </view> 
+  <!-- <view class="item">
+   <view class="label">热门</view> 
+    <view class="item-left-info">
+      <view class="item-title">VIP视频</view>
+      <view class="item-describe">会员视频免费看</view>
+    </view>
+    <view class="item-right-info"><image class="item-image" mode="scaleToFill" src="/static/image/VIP.png"></image></view>
+  </view>  -->
+  <view class="item">
+    <navigator 	open-type="navigate" url="/pages/tools/md5/md5">
+     
+    <!-- <view class="label">热门</view>   -->
+    <view class="item-left-info">
+      <view class="item-title">视频MD5修改</view>
+      <view class="item-describe">修改视频md5，助你快速上热门</view>
+    </view>
+    <view class="item-right-info"><image class="item-image" mode="scaleToFill" src="/static/image/lock.png"></image></view>
+    </navigator>
+  </view> 
+  <!-- <view class="item  "  >
+    <view class="label">热门</view> 
+    <view class="item-left-info">
+      <view class="item-title">视频音频获取</view>
+      <view class="item-describe">一键获取，音频手到擒来！</view>
+    </view>
+    <view class="item-right-info"><image class="item-image" mode="scaleToFill" src="/static/image/music.png"></image></view>
+  </view>  -->
+</view>
